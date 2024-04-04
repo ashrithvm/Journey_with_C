@@ -16,7 +16,7 @@ void pointerTest(){
     int* ptr; //declare that item at <ptr> address is an integer
 
     n= 46; // give value to n
-    ptr= &n;// pointer 'ptr' points to address of 'n'
+    ptr= (int *) &n;// pointer 'ptr' points to address of 'n'
 
     printf("var: %d, ptr: %d\n",n, *ptr);
     *ptr=99;//change value of item at <ptr> address
