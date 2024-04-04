@@ -28,4 +28,5 @@ int main(){
  * <func. return type> (*ptrName) (<dataType of func. param>) = (function name)
  * 
  * int (*pAdd) (int, int) = add;
+ * (*pAdd)(x, y)
 */
